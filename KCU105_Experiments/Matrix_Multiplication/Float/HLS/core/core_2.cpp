@@ -51,14 +51,14 @@ void core_2( /* Synchronization */ int *control_unit, int core_number, volatile 
 
 	/****************************************/
 	// local data
-	float local_a_row[256];
+	float local_a_row[128];
 #pragma HLS bind_storage variable=local_a_row impl=LUTRAM type=RAM_1WNR
 #pragma HLS array_partition variable=local_a_row cyclic factor=16 dim=1
-	float local_b[256][16];
+	float local_b[128][16];
 #pragma HLS bind_storage variable=local_b impl=LUTRAM type=RAM_1WNR
 #pragma HLS array_partition variable=local_b cyclic factor=16 dim=2
 //#pragma HLS array_partition variable=local_b block factor=2 dim=1
-	float local_c_row[256];
+	float local_c_row[128];
 //#pragma HLS bind_storage variable=local_c_row impl=BRAM type=RAM_1WNR
 #pragma HLS array_partition variable=local_c_row cyclic factor=16 dim=1
 
