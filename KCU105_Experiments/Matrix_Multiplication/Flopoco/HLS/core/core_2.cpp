@@ -116,13 +116,13 @@ void core_2( /* Synchronization */ int *control_unit, int core_number, volatile 
 	/****************************************/
 	// local data
 	fp_t* local_mem_flopoco;
-	fp_t local_a_row[64];
+	fp_t local_a_row[32];
 #pragma HLS bind_storage variable=local_a_row impl=LUTRAM type=RAM_1WNR
 #pragma HLS array_partition variable=local_a_row cyclic factor=16 dim=1
-	fp_t local_b[64][16];
+	fp_t local_b[32][16];
 #pragma HLS bind_storage variable=local_b impl=LUTRAM type=RAM_1WNR
 #pragma HLS array_partition variable=local_b cyclic factor=16 dim=2
-	fp_t local_c_row[64];
+	fp_t local_c_row[32];
 #pragma HLS array_partition variable=local_c_row cyclic factor=16 dim=1
 
 
