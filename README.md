@@ -37,12 +37,14 @@ Creating core IP with HLS:
   4. Addind files the Relevant_Experiment/HLS/core/xthread.cpp and Relevant_Experiment/HLS/core/xthread.h to the your project.
   5. Click C synthesis.
   6. When synthesis is finished, click Export RTL.
+
 Creating control_unit IP with HLS:
-  8. Open Vitis HLS 2020.1
-  9. Create New Project
-  10. Name of the top function should be "control_unit_1". Replace the contents of the control_unit_1.c with Relevant_Experiment/HLS/control_unit/control_unit_1.c
-  12. Click C synthesis.
-  13. When synthesis is finished, click Export RTL.
+  1. Open Vitis HLS 2020.1
+  2. Create New Project
+  3. Name of the top function should be "control_unit_1". Replace the contents of the control_unit_1.c with Relevant_Experiment/HLS/control_unit/control_unit_1.c
+  4. Click C synthesis.
+  5. When synthesis is finished, click Export RTL.
+  
 Creating SoC Design with All Components:
   1. Open Vivado 2020.1
   2. Create project
