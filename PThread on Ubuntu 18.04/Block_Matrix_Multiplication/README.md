@@ -24,5 +24,5 @@ Sequential Version
 1. Create new block_matrix_mul_sequential.c project in file. 
 2. Replace the contents of block_matrix_mul_sequential.c
 3. Compile code --> block_matrix_mul_sequential.c -o MySeqProgram 
-4. Run program-->  ./MySeqProgram
+4. Run program -->  ./MySeqProgram
 5. Record execution time
