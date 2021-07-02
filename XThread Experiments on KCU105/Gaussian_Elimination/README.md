@@ -48,6 +48,6 @@ When generate bitstream finished, export hardware (choose include bitstream opti
   2. Create the platform project, select the .xsa file that are created after the export hardware step.
   3. Create the application project, select created platform project and select a template(Hello World) to create your project.
   4. Replace the contents of the Hello world project with VITIS/main.cpp 
-  5. Addind files the Relevant_Experiment/VITIS/xthread.c and VITIS/xthread.h to the your project.
-  6. Addind files the Relevant_Experiment/VITIS/timerHelper.c and VITIS/timerHelper.h to the your project.
+  5. Addind files the VITIS/xthread.c and VITIS/xthread.h to the your project.
+  6. Addind files the VITIS/timerHelper.c and VITIS/timerHelper.h to the your project.
   7. Ready to run.
