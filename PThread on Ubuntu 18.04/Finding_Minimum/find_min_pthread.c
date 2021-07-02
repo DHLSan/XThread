@@ -15,9 +15,9 @@
 #include<sys/time.h>
 #include<stdlib.h>
 #include <math.h>
-#define THREADS 12
+#define THREADS 1
 
-#define NumElements 200000000
+#define NumElements 100000000
 #define BILLION  1E9;
 void *find_min(void *) ;
 void init_finding_min();
@@ -26,7 +26,7 @@ void init_finding_min();
 pthread_mutex_t minimum_value_lock;
 
 long int partial_list_size;
-int minimum_value;
+float minimum_value;
 
 float list_1[NumElements];
 int NumThreads;
@@ -88,7 +88,7 @@ int main (int argc,char * argv[]) {
     gettimeofday(&tv, &tz);
     time_end = (double)tv.tv_sec + (double)tv.tv_usec / 1000000.0;
 
-    printf("\n\t\t Minimum Value found in the Integer list     :  %d",minimum_value);
+    printf("\n\t\t Minimum Value found in the Float list     :  %f",minimum_value);
     //printf("\n\t\t Memory Utilised                             :  %lf MB",(MemoryUsed / (1024*1024)));
     printf("\n\t\t Time Taken in Seconds  (T)                  :  %lf Seconds",( time_end - time_start));
     printf("\n\t\t   ( T represents the Time taken to  Minimum Value )\n");
@@ -102,7 +102,7 @@ int main (int argc,char * argv[]) {
 
 void *find_min(void * myid ) {
 
-    int my_min; // local
+    float  my_min; // local
     long int counter; // local
 
     int myId = (int)myid; // local
