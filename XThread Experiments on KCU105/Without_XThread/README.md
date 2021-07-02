@@ -51,3 +51,4 @@ When generate bitstream finished, export hardware (choose include bitstream opti
   5. Addind files the VITIS/xthread.c and VITIS/xthread.h to the your project.
   6. Addind files the VITIS/timerHelper.c and VITIS/timerHelper.h to the your project.
   7. Ready to run.
+  8. Record execution time only one thread.
