@@ -20,7 +20,7 @@ PThread Paralel Version
 
 Sequential Version
 
-1.Create new benchmark_name_sequential.c project in file. 
+1.Create new find_min_sequential.c project in file. 
 2.Replace the contents of find_min_sequential.c
 3.Compile code --> find_min_sequential.c -o MySeqProgram 
 4.Run program-->  ./MySeqProgram
