@@ -71,7 +71,7 @@ int main (int argc,char * argv[]) {
     gettimeofday(&tv, &tz);
     time_end = (double)tv.tv_sec + (double)tv.tv_usec / 1000000.0;
 
-    printf("\n\t\t Minimum Value found in the Integer list     :  %d",minimum_value);
+    printf("\n\t\t Minimum Value found in the float list     :  %f",minimum_value);
     //printf("\n\t\t Memory Utilised                             :  %lf MB",(MemoryUsed / (1024*1024)));
     printf("\n\t\t Time Taken in Seconds  (T)                  :  %lf Seconds",( time_end - time_start));
     printf("\n\t\t   ( T represents the Time taken to  Minimum Value )\n");
@@ -84,7 +84,7 @@ int main (int argc,char * argv[]) {
 
 void *find_min(void * myid ) {
 
-    int my_min; // local
+    float my_min; // local
     long int counter; // local
 
     int myId = (int)myid; // local
