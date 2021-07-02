@@ -19,10 +19,20 @@ Multi-core programming models including PThreads, OpenMP and MPI allow one to ut
  - Assist. Prof. Dr. İsmail San
     - Contact: isan@eskisehir.edu.tr
 ## **_Platform and Tools_** ##
+XThread Experiments:
 - KCU105 Xilinx Kintex XCKU040-2FFVA1156E UltraScale FPGA
 - Xilinx Vitis High-Level Synthesis 2020.1
 - Xilinx Vivado Design Suit 2020.1
 - Xilinx Vitis 2020.1
+- Clock Frequency: 100 MHz
+
+PThread Experiments:
+- Processor	Intel Core i7 7th Gen
+- Architecture	x86_64
+- Operating System:Linux 
+- Ubuntu Version	18.04
+-Gcc Version:	6.5.0 
+-Clock Frequency: 800MHz(min)/3800MHz(max)
 
 ## **_Report_** ##
 Project phases and more detail about project is shared in this repository as XThread_report_xohw21-136.pdf
