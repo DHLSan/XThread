@@ -44,3 +44,9 @@ Creating SoC Design with All Components:
   17. Click on Generate Bitstream.
 
 When generate bitstream finished, export hardware (choose include bitstream option) and open Vitis 2020.1.
+  1. Open Xilinx Vitis 2020.1, choose workspace for new project
+  2. Create the platform project, select the .xsa file that are created after the export hardware step.
+  3. Create the application project, select created platform project and select a template(Hello World) to create your project.
+  4. Replace the contents of the Hello world project with  Relevant_Experiment/VITIS/main.cpp 
+  5. Addind files the Relevant_Experiment/VITIS/xthread.c and Relevant_Experiment/VITIS/xthread.h to the your project.
+
