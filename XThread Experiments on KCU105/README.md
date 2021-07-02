@@ -53,3 +53,7 @@ When generate bitstream finished, export hardware (choose include bitstream opti
   7. Ready to run.
   8. Change number of thread and record execution time.
 
+## **_Helpfull Links_** ## 
+
+  - https://www.hackster.io/news/microzed-chronicles-getting-up-and-running-with-vitis-8f05eb013289
+  - https://forum.digilentinc.com/topic/20756-error-compiling-pmodgyro/
