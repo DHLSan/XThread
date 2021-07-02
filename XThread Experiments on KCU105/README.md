@@ -37,7 +37,7 @@ Creating SoC Design with All Components:
   10. Click Window --> Add ip catalog --> click right click on list --> select your the path of the core IP you exported --> click OK
   11. Click Window --> Add ip catalog --> click right click on list --> select your the path of the control_unit IP you exported --> click OK
   12. click right click on block design -->  ip catalog --> select ip files which you created with HLS(12 core and 1 control_unit)
-  13. Make neccessary connections as seen in KCU105_Experiments/block_design.pdf, make sure the connections are exactly the same with block_design.pdf
+  13. Make neccessary connections as seen in block_design.pdf, make sure the connections are exactly the same with block_design.pdf
   14. Click Generate Bitstream
   15. Right click on design file and click Create HDL Wrapper.
   16. Right click on design and click Generate Output Products.
