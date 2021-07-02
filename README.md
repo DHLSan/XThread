@@ -32,7 +32,7 @@ PThread Experiments:
 - Operating System:Linux 
 - Ubuntu Version	18.04
 - Gcc Version:	6.5.0 
--Clock Frequency:3800MHz
+- Clock Frequency:3800MHz
 
 
 ## **_Report_** ##
