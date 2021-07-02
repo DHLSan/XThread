@@ -10,9 +10,9 @@ This project was carried out within the scope of the EEM464 course at the Depart
 
 PThread Paralel Version
 
-1.Create new  block_matrix_mul_pthread.c project in file. 
-2.Replace the contents of block_matrix_mul_pthread.c
-3.Compile code --> gcc block_matrix_mul_pthread.c -o MyProgram -lpthread
+1. Create new  block_matrix_mul_pthread.c project in file. 
+2. Replace the contents of block_matrix_mul_pthread.c
+3. Compile code --> gcc block_matrix_mul_pthread.c -o MyProgram -lpthread
 4. Run program-->  ./MyProgram
 5. Record execution time
 6. Change number of thread in code
@@ -21,8 +21,8 @@ PThread Paralel Version
 
 Sequential Version
 
-1.Create new block_matrix_mul_sequential.c project in file. 
-2.Replace the contents of block_matrix_mul_sequential.c
-3.Compile code --> block_matrix_mul_sequential.c -o MySeqProgram 
-4.Run program-->  ./MySeqProgram
-5.Record execution time
+1. Create new block_matrix_mul_sequential.c project in file. 
+2. Replace the contents of block_matrix_mul_sequential.c
+3. Compile code --> block_matrix_mul_sequential.c -o MySeqProgram 
+4. Run program-->  ./MySeqProgram
+5. Record execution time
