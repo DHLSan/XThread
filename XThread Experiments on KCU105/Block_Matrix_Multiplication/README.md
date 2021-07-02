@@ -7,6 +7,8 @@ This project was carried out within the scope of the EEM464 course at the Depart
 
 ## **_Step-by-step Building and Testing Instructions_** ##
 
+Choose a benchmark and follow the steps below.
+
 Creating core IP with HLS:
   1. Open Vitis HLS 2020.1
   2. Create New Project
@@ -35,11 +37,17 @@ Creating SoC Design with All Components:
   10. Click Window --> Add ip catalog --> click right click on list --> select your the path of the core IP you exported --> click OK
   11. Click Window --> Add ip catalog --> click right click on list --> select your the path of the control_unit IP you exported --> click OK
   12. click right click on block design -->  ip catalog --> select ip files which you created with HLS(12 core and 1 control_unit)
-  13. Make neccessary connections as seen in XThread Experiments on KCU105/block_design.pdf, make sure the connections are exactly the same with block_design.pdf
+  13. Make neccessary connections as seen in block_design.pdf, make sure the connections are exactly the same with block_design.pdf
   14. Click Generate Bitstream
   15. Right click on design file and click Create HDL Wrapper.
   16. Right click on design and click Generate Output Products.
   17. Click on Generate Bitstream.
 
 When generate bitstream finished, export hardware (choose include bitstream option) and open Vitis 2020.1.
-
+  1. Open Xilinx Vitis 2020.1, choose workspace for new project
+  2. Create the platform project, select the .xsa file that are created after the export hardware step.
+  3. Create the application project, select created platform project and select a template(Hello World) to create your project.
+  4. Replace the contents of the Hello world project with  Relevant_Experiment/VITIS/main.cpp 
+  5. Addind files the VITIS/xthread.c and VITIS/xthread.h to the your project.
+  6. Addind files the VITIS/timerHelper.c and VITIS/timerHelper.h to the your project.
+  7. Ready to run.
