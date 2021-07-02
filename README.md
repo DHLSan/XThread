@@ -8,7 +8,7 @@ This project was carried out within the scope of the EEM464 course at the Depart
 ## **_Project Description_** ##
 Multi-core programming models including PThreads, OpenMP and MPI allow one to utilize the power of all the existing available cores inside CPUs and GPUs. However, the number of cores, the architecture of execution units in ALUs and memory architectures are fixed in these computing platforms. Programmer needs to describe the program in a way to distribute execution tasks across available cores, with efficient data synchronization, considering the number of available cores. The achievable parallelism is limited with the fixed hardware, it may not be possible to achieve the maximum parallelism of the application.  In our study, we propose XThread, a reconfigurable parallel programming framework that allows one to design and implement application-specific hardware for the application of interest from a Pthread like C-level programming to overcome the limitation of the fixed hardware architectures. XThread shows a speedup 2.32x on block matrix multiplication. Considering the frequency difference between KCU105 Xilinx Kintex UltraScale FPGA and Intel i7 7th generation processor, the XThread library interface is much more advantageous in all experiments. It provides less power consumption. XThread consists of the same programming structures in Pthread and easy to transfer existing Pthread programs in order to speed-up application in reconfigurable hardware, e.g., FPGA.
 
-❮img src="Images/1.png" width="100" ❯
+❮img src="XThread Experiments on KCU105/Images/1.png" width="100" ❯
 
 ## **_Participants_** ##
 - Fatma ÖZÜDOĞRU
