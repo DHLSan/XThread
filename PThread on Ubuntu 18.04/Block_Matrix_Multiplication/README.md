@@ -18,6 +18,7 @@ PThread Paralel Version
 6. Change number of thread in code
 7. Repeat steps 3, 4 and 5
 
+
 Sequential Version
 
 1.Create new benchmark_name_sequential.c project in file. 
