@@ -45,9 +45,11 @@ Project phases and more detail about project is shared in this repository as XTh
 
 ## **_Experimental Results_** ##
 ![](XThread%20Experiments%20on%20KCU105/Images/2.png)
+
 In the finding minimum experiment, the Pthread library is approximately 1.64 times faster than the XThread library interface when the number of cores is 12. Considering the frequency difference between them, the XThread library interface is much more advantageous. It provides less power consumption.
 
 ![](XThread%20Experiments%20on%20KCU105/Images/3.PNG)
+
 In the gaussian elimination benchmark,the Pthread library is approximately 1.29 times faster than the XThread library interface when the number of cores is 12. In the same way, considering the frequency difference between them, the XThread library interface  is much more advantageous. It provides less power consumption.
 
 ![](XThread%20Experiments%20on%20KCU105/Images/4.PNG)
