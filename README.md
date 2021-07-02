@@ -28,5 +28,11 @@ Multi-core programming models including PThreads, OpenMP and MPI allow one to ut
 Project phases and more detail about project is shared in this repository as XThread_report_xohw21-136.pdf
 ## **_Video Link_** ##
 
+## **_SoC Architecture_** ##
 
-## **_Step-by-step Building and Testing Instructions_** ##
+![](XThread%20Experiments%20on%20KCU105/Images/5.png)
+
+## **_Experimental Results_** ##
+![](XThread%20Experiments%20on%20KCU105/Images/2.png)
+![](XThread%20Experiments%20on%20KCU105/Images/3.PNG)
+![](XThread%20Experiments%20on%20KCU105/Images/4.PNG)
