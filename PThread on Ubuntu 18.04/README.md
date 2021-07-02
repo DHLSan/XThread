@@ -12,9 +12,9 @@ Choose a benchmark and follow the steps below.
 
 PThread Paralel Version
 
-1.Create new benchmark_name_pthread.c project in file. 
-2.Replace the contents of Relevant_Experiment/relevant_experiment_pthread.c 
-3.Compile code --> gcc relevant_experiment_pthread.c -o MyProgram -lpthread
+1. Create new benchmark_name_pthread.c project in file. 
+2. Replace the contents of Relevant_Experiment/relevant_experiment_pthread.c 
+3. Compile code --> gcc relevant_experiment_pthread.c -o MyProgram -lpthread
 4. Run program-->  ./MyProgram
 5. Record execution time
 6. Change number of thread in code
@@ -22,8 +22,8 @@ PThread Paralel Version
 
 Sequential Version
 
-1.Create new benchmark_name_sequential.c project in file. 
-2.Replace the contents of Relevant_Experiment/relevant_experiment_sequential.c 
-3.Compile code --> gcc relevant_experiment_sequential.c -o MyProgram 
-4.Run program-->  ./MyProgram
-5.Record execution time
+1. Create new benchmark_name_sequential.c project in file. 
+2. Replace the contents of Relevant_Experiment/relevant_experiment_sequential.c 
+3. Compile code --> gcc relevant_experiment_sequential.c -o MyProgram 
+4. Run program-->  ./MyProgram
+5. Record execution time
