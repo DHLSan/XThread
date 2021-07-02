@@ -31,8 +31,9 @@ PThread Experiments:
 - Architecture	x86_64
 - Operating System:Linux 
 - Ubuntu Version	18.04
--Gcc Version:	6.5.0 
--Clock Frequency: 800MHz(min)/3800MHz(max)
+- Gcc Version:	6.5.0 
+-Clock Frequency:3800MHz
+
 
 ## **_Report_** ##
 Project phases and more detail about project is shared in this repository as XThread_report_xohw21-136.pdf
