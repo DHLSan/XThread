@@ -3,24 +3,9 @@ XThread: A Hardware-based Multi-core Parallel Programming Environment Using Pthr
 
 Team Number: xohw21-136
 
-Eskisehir Technical University
-
-## **_Participants_** ##
-- Fatma ÖZÜDOĞRU
-  - Contact: ozudogrufatma26@gmail.com
-- Ersin ABBASOĞLU
-  - Contact: ersinabbasoglu@anadolu.edu.tr
-## **_Supervisor_** ##
- - Assist. Prof. Dr. İsmail San
-    - Contact: isan@eskisehir.edu.tr
-## **_Platform and Tools_** ##
-- KCU105 Xilinx Kintex XCKU040-2FFVA1156E UltraScale FPGA
-- Xilinx Vitis High-Level Synthesis 2020.1
-- Xilinx Vivado Design Suit 2020.1
-- Xilinx Vitis 2020.1
-
+This project was carried out within the scope of the EEM464 course at the Department of Electrical and Electronics Engineering at Eskişehir Technical University.
 
 
 ## **_Step-by-step Building and Testing Instructions_** ##
 
-
+Choose a benchmark and follow the steps below.
