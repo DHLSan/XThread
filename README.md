@@ -39,9 +39,6 @@ PThread Experiments:
 Project phases and more detail about project is shared in this repository as XThread_report_xohw21-136.pdf
 ## **_Video Link_** ##
 
-## **_SoC Architecture_** ##
-
-![](XThread%20Experiments%20on%20KCU105/Images/5.png)
 
 ## **_Experimental Results_** ##
 In the finding minimum experiment, the Pthread library is approximately 1.64 times faster than the XThread library interface when the number of cores is 12. Considering the frequency difference between them, the XThread library interface is much more advantageous. It provides less power consumption.
