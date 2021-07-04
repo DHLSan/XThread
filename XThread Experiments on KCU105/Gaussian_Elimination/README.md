@@ -9,8 +9,6 @@ This project was carried out within the scope of the EEM464 course at the Depart
 
 In this experiment, the barrier function is used in HLS and the join function is used in VITIS.
 
-![](XThread%20Experiments%20on%20KCU105/Images/7.png)
-
 ## **_Step-by-step Building and Testing Instructions_** ##
 
 Choose a benchmark and follow the steps below.
