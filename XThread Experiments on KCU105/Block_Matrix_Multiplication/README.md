@@ -5,6 +5,10 @@ Team Number: xohw21-136
 
 This project was carried out within the scope of the EEM464 course at the Department of Electrical and Electronics Engineering at Eskişehir Technical University.
 
+## **_Information_** #
+
+In this experiment, the join function is used in VITIS.
+
 ## **_Step-by-step Building and Testing Instructions_** ##
 
 Choose a benchmark and follow the steps below.
